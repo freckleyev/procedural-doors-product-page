@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Floor Generator - Blender Addon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+
+<div class="product-container">
+    <header class="product-header">
+        <h1 class="product-title">Floor Generator</h1>
+        <p class="product-subtitle">Geometry Nodes powered add-on for creating floor boards and tiles</p>
+    </header>
+
+    <section class="product-media">
+        <h2>Floor Generator 2.0 review video</h2>
+        <p>Floor Generator 3.0 video review is coming soon...</p>
+        <div class="video-container">
+            <iframe src="//www.youtube.com/embed/g0f-NMgmSZw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="product-details">
+        <h2>Add Floor Generator to any mesh object</h2>
+        <p>Generate flooring boards and tiles on any shape mesh object with one click.</p>
+        <img src="./images/01_add_floor_generator.gif" alt="Add Floor Generator">
+    </section>
+
+    <section class="product-grid-container">
+        <h2>Available Flooring Patterns</h2>
+        <p>Easily switch between patterns from the drop-down menu at any time. </p>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="./images/02_2_standard.gif" alt="Standard" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Standard</h3>
+                    <p class="card-description">Most popular flooring pattern, versatile for any room, and ideal for creating a clean, spacious look.</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/02_1_standard_specified.gif" alt="Standard (specified sizes)" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Standard (specified sizes)</h3>
+                    <p class="card-description">Standard flooring pattern with the option to include up to five different board sizes, arranged either in a random or ordered layout.</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/02_3_herringbone.gif" alt="Herringbone" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Herringbone</h3>
+                    <p class="card-description">A classic, elegant pattern often used in living rooms, hallways, and upscale interiors to add a sense of movement and sophistication.</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/02_4_chevron.gif" alt="Chevron" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Chevron</h3>
+                    <p class="card-description">Similar to herringbone but with a sharper, more contemporary look, popular in modern and luxurious spaces.</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/02_5_hexagon.gif" alt="Hexagon" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Hexagon</h3>
+                    <p class="card-description">Popular in bathrooms, kitchens, and feature areas to create a stylish, geometric aesthetic.</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/02_6_basket-weave.gif" alt="Basket Weave" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Basket Weave</h3>
+                    <p class="card-description">Traditional pattern often used in classic interiors, entryways, or formal spaces to evoke timeless craftsmanship.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="product-media">
+        <h2>Powerful Adjustable Settings</h2>
+        <p>Generate custom floor meshes with a wide range of parameters and create the exact flooring you need using extensive controls.</p>
+        <video autoplay muted loop playsinline style="max-width:100%;height:auto;border-radius:0.625rem;margin:20px 0;">
+          <source src="./images/03_parameters_mesh.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section class="product-details">
+        <h2>Material Library System</h2>
+        <p>The integrated material library system makes it easy to find and apply materials using categories and a search field. Speed up your workflow by creating materials with Templates and saving them to your custom libraries.</p>
+        <video autoplay muted loop playsinline style="max-width:100%;height:auto;border-radius:0.625rem;margin:20px 0;">
+          <source src="./images/04_material-library_2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section class="product-media">
+        <h2>Mosaic Material</h2>
+        <p>The <span class="highlight">uv_mosaic</span> attribute enables creating mosaic materials or applying advanced masking. <a href="./images/05_MOSAIC_SHADER.jpg" target="_blank">[SHADER SAMPLE]</a></p>
+        <video autoplay muted loop playsinline style="max-width:100%;height:auto;border-radius:0.625rem;margin:20px 0;">
+          <source src="./images/05_mosaic.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>Use <span class="highlight">uv_mosaic</span> attribute as a Mapping Node vector input to mask shaders. <a href="./images/06_MOSAIC_MASKING.jpg" target="_blank">[SHADER SAMPLE]</a></p>
+        <video autoplay muted loop playsinline style="max-width:100%;height:auto;border-radius:0.625rem;margin:20px 0;">
+          <source src="./images/06_mosaic_mask.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section class="product-details">
+        <h2>MultiTexture Material</h2>
+        <p>The specially developed <span class="highlight">MultiTexture</span> Node lets you add up to 16 textures to each shader input, automatically distributing them randomly across the floorboards for natural variation. <a href="./images/07_MultiTexture.jpg" target="_blank">[SHADER SAMPLE]</a></p>
+        <video autoplay muted loop playsinline style="max-width:100%;height:auto;border-radius:0.625rem;margin:20px 0;">
+          <source src="./images/07_MultiTextureMaterial.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section class="product-media">
+        <h2>Seamless Material</h2>
+        <p>This method uses one seamless texture. The Floor Generator unwraps each board to a random position in the UV space, ensuring each board has a unique, non-repeating look. <a href="./images/08_SEAMLESS.jpg" target="_blank">[SHADER SAMPLE]</a></p>
+        <video autoplay muted loop playsinline style="max-width:100%;height:auto;border-radius:0.625rem;margin:20px 0;">
+          <source src="./images/08_Seamless.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section class="product-details">
+        <h2>Clapboard Effect</h2>
+        <p>For the Standard floor pattern, it's possible to add a clapboard effect, which is perfect for creating house wood siding or roofing.</p>
+        <img src="https://assets.superhivemarket.com/cache/68d9dc0c7462bc26febc7f3958faa282.jpg" style="width:50%;" alt="Clapboard Effect">
+    </section>
+
+    <section class="product-media">
+        <h2>Asset Browser Library</h2>
+        <p>For quick access, add the <span class="highlight">FloorGenerator</span> and materials to the Asset Browser in Blender. This package includes <span class="highlight">56 pre-made materials</span> to get you started:</p>
+        <ul>
+            <li>35 MultiTexture wood flooring materials</li>
+            <li>2 Seamless wood flooring materials</li>
+            <li>19 MultiTexture tile materials</li>
+        </ul>
+        <img src="https://assets.superhivemarket.com/cache/d399d15150aa3ca7c5f0f65fb439496a.jpg" alt="Asset Browser Library">
+    </section>
+
+    <section class="product-details">
+        <h2>Advanced Masking</h2>
+        <p>To mask textures and materials, you can use three attributes: <span class="highlight">Bevel</span>, <span class="highlight">Sides</span>, and <span class="highlight">Grout</span>. Use their factor outputs with Mix Color or Mix Shader nodes for detailed control.</p>
+        <img src="https://assets.superhivemarket.com/cache/d67e3a604ae48a7a467c8da6d4dcc99f.jpg" alt="Attribute Masking">
+        <img src="https://assets.superhivemarket.com/cache/56580444121aca4431ac9f708e465c6a.jpg" alt="Advanced Masking Example">
+    </section>
+</div>
+
+</body>
+</html>
